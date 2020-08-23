@@ -1,0 +1,56 @@
+<%- include('./layouts/header') %>
+  <div class="main">
+    <div uk-grid>
+      <div class="uk-width-2-3@l limit-height">
+        <div class="uk-card uk-card-default" style='margin-top: 16px'>
+          <div class="uk-card-header">
+            月華使用说明
+          </div>
+          <div class="uk-card-body">
+            <h3>相关软件下载地址：</h3>
+            <p>CoolQ 下载地址：<a class="uk-button uk-button-text" href="https://cqp.cc/b/news">https://cqp.cc/b/news</a></p>
+            <p>CQHTTP 下载地址：<a class="uk-button uk-button-text" href="https://github.com/richardchien/coolq-http-api/releases">https://github.com/richardchien/coolq-http-api/releases</a></p>
+            <h3>使用说明：</h3>
+            <ul class="uk-list">
+              <li>1. 下载CoolQ本体，Pro版为收费版本，Air版为免费版本。<span class="uk-text-warning">Air版无法发送图片，部分功能不可使用。</span></li>
+              <li>2. 下载CQHTTP插件，将其放入：X:\CoolQPro\app\ 文件夹内。</li>
+              <li>3. 启动CoolQ，按照说明登录。</li>
+              <li>4. 右击悬浮窗，打开应用->应用管理。</li>
+              <li>5. 启用 HTTP API 插件。 （如果是Pro版本需要下载语音库，覆盖到CoolQ本体文件夹内即可）。</li>
+              <li>6. 下载月華的配置文件，将其放入 X:\CoolQPro\data\app\io.github.richardchien.coolqhttpapi\config\ 文件夹内。</li>
+              <li>7. 重启CoolQ。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="uk-width-1-3@l limit-height">
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            月華完成进度
+          </div>
+          <div class="uk-card-body">
+            <ul class="uk-list uk-list-divider">
+              <li>内置帮助: !help [已完成]</li>
+              <li>延迟查询: !ping [已完成]</li>
+              <li>物品查询: !search [已完成]</li>
+              <li>本周暖暖: !nuannuan [已完成]</li>
+              <li>玄学选门: !gate [已完成]</li>
+              <li>挖宝查询: !treasure [已完成]</li>
+              <li>贪欲陷阱: !trap [已完成]</li>
+              <li>投掷子: !dice [已完成]</li>
+              <li>好涩哦~: !hso [已完成]</li>
+              <li>查看天气: !weather [已完成]</li>
+              <li>DPS统计: !dps [已完成]</li>
+              <li>副属性计算: !fsx [已完成]</li>
+              <li>宏书查询: !macro [已完成]</li>
+              <li>青魔法书: !blue [已完成]</li>
+              <li>浅草寺求签: !luck [已完成]</li>
+              <li>月儿传图: !image [已完成]</li>
+              <li>...等待添加...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<%- include('./layouts/footer') %>
